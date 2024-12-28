@@ -21,27 +21,64 @@ const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    e.preventDefault();
     const href = link.getAttribute("href");
 
-    // Scroll back to top
-    if (href === "#")
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+    // Handle internal links only
+    if (href.startsWith("#")) {
+      e.preventDefault();
 
-    // Scroll to other links
-    if (href !== "#" && href.startsWith("#")) {
-      const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({ behavior: "smooth" });
+      // Scroll back to top
+      if (href === "#") {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      // Scroll to other sections
+      if (href !== "#") {
+        const sectionEl = document.querySelector(href);
+        sectionEl.scrollIntoView({ behavior: "smooth" });
+      }
+
+      // Close mobile navigation
+      if (link.classList.contains("main-nav-link")) {
+        headerEl.classList.toggle("nav-open");
+      }
     }
-
-    // Close mobile naviagtion
-    if (link.classList.contains("main-nav-link"))
-      headerEl.classList.toggle("nav-open");
   });
 });
+
+// const allLinks = document.querySelectorAll("a:link");
+
+// allLinks.forEach(function (link) {
+//   link.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     const href = link.getAttribute("href");
+
+//     // Scroll back to top
+//     if (href === "#")
+//       window.scrollTo({
+//         top: 0,
+//         behavior: "smooth",
+//       });
+
+//     // Scroll to other links
+//     if (
+//       href !== "#" &&
+//       href.startsWith("#") &&
+//       !href.contains("udemy") &&
+//       !href.contains("github")
+//     ) {
+//       const sectionEl = document.querySelector(href);
+//       sectionEl.scrollIntoView({ behavior: "smooth" });
+//     }
+
+//     // Close mobile naviagtion
+//     if (link.classList.contains("main-nav-link"))
+//       headerEl.classList.toggle("nav-open");
+//   });
+// });
 
 ///////////////////////////////////////////////////////////
 // Sticky navigation

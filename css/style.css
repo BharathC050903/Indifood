@@ -177,7 +177,7 @@
 
 .logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logos img {
@@ -665,4 +665,20 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+.built-by-section {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 1rem;
+  background-color: #7dcea0;
+}
+.code-icon {
+  transform: translate(0, 0.25rem);
+}
+.built-by-section a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #145a32;
 }
