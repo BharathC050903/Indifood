@@ -6,8 +6,6 @@ INDIFOOD is a platform that delivers daily meals to customers, eliminating the n
 
 Deployed at: [indifoodbybharath.netlify.app](https://indifoodbybharath.netlify.app/)
 
-<img src="img/indifood-logo.png" alt="HTML" width="50" style="background-color: #fff; ">
-
 ### Skills and Technologies Learned:
 
  <img src="img/imgsforReadmefile/html-css-js.png" alt="HTML" width="150" style="background-color: #fff; border-radius: 5px;">
@@ -34,6 +32,10 @@ Deployed at: [indifoodbybharath.netlify.app](https://indifoodbybharath.netlify.a
 
 - **Adobe Illustrator**:
   - Gained hands-on experience in creating graphics and illustrations using Adobe Illustrator.
+
+![Indifood Logo Design](img/imgsforReadmefile/AI-working-1.png)
+
+![](img/imgsforReadmefile/AI-working-2.png)
 
 <img src="img/imgsforReadmefile/responsive.png" alt="Computer/Mobile/Tablet icon" width="50" style="background-color: #fff; border-radius: 5px;">
 
