@@ -4,13 +4,11 @@
 
 INDIFOOD is a platform that delivers daily meals to customers, eliminating the need for them to cook. It provides a convenient solution for busy individuals who want fresh and delicious meals delivered to their doorsteps every day.
 
-Deployed at:
-[Indifood](https://indifoodbybharath.netlify.app/)
+Deployed at: [indifoodbybharath.netlify.app](https://indifoodbybharath.netlify.app/)
+
 <img src="img/indifood-logo.png" alt="HTML" width="50" style="background-color: #fff; ">
 
 ### Skills and Technologies Learned:
-
-1. **INDIFOOD**:
 
  <img src="img/imgsforReadmefile/html-css-js.png" alt="HTML" width="150" style="background-color: #fff; border-radius: 5px;">
 
@@ -60,8 +58,12 @@ Deployed at:
 
 ### Screenshots
 
-Here are some screenshots of the INDIFOOD website:
+Here is a screenshot of the INDIFOOD website:
 
 ![Homepage](img/imgsforReadmefile/indifood-ss-v2.png)
+
+Here is a screenshot of the INDIFOOD website's SEO:
+
+![SEO results](img/imgsforReadmefile/SEO.png)
 
 ---
