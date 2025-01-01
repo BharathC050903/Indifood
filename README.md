@@ -5,15 +5,14 @@
 INDIFOOD is a platform that delivers daily meals to customers, eliminating the need for them to cook. It provides a convenient solution for busy individuals who want fresh and delicious meals delivered to their doorsteps every day.
 
 Deployed at:
-[![Indifood](img/indifood-logo.png)](https://indifoodbybharath.netlify.app/)
+[Indifood](https://indifoodbybharath.netlify.app/)
+<img src="img/indifood-logo.png" alt="HTML" width="50" style="background-color: #fff; ">
 
 ### Skills and Technologies Learned:
 
 1. **INDIFOOD**:
 
- <img src="img/imgsforReadmefile/html.png" alt="HTML" width="50" style="background-color: #fff; border-radius: 5px;">
-<img src="img/imgsforReadmefile/css.png" alt="CSS" width="50" style="background-color: #fff; border-radius: 5px;">
-<img src="img/imgsforReadmefile/js.png" alt="JS" width="50" style="background-color: #fff; border-radius: 5px;">
+ <img src="img/imgsforReadmefile/html-css-js.png" alt="HTML" width="150" style="background-color: #fff; border-radius: 5px;">
 
 - **Front-End Development**: Developed the user interface with HTML, CSS, and JavaScript.
 
@@ -49,12 +48,20 @@ Deployed at:
 
 - Acquired foundational knowledge and practical experience in creating user-centered designs and intuitive interfaces for enhanced user experience.
 
+<img src="img/imgsforReadmefile/Figma-logo.png" alt="UI/UX icon" width="50" style="background-color: #fff; border-radius: 5px;">
+
+**Basics of Figma**:
+
+- Gained a solid understanding of Figma, including its tools and features, to design user-centered interfaces that prioritize usability and enhance user experiences.
+  <img src="img/imgsforReadmefile/figma-working.png" alt="figma  working" style="background-color: #fff;">
+  <img src="img/imgsforReadmefile/INDIFOOD.png" alt="figma output" style="background-color: #fff;">
+
 ---
 
 ### Screenshots
 
 Here are some screenshots of the INDIFOOD website:
 
-![Homepage](img/imgsforReadmefile/indifood-ss.png)
+![Homepage](img/imgsforReadmefile/indifood-ss-v2.png)
 
 ---
