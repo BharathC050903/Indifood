@@ -89,7 +89,7 @@
   }
 
   .logos img {
-    height: 2.4rem;
+    height: 4.2rem;
   }
 
   .step-number {
@@ -227,6 +227,14 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .logos img {
+    height: 4rem;
+    opacity: 70%;
+    border-radius: 0.4rem;
+  }
+  .section-featured {
+    padding: 0.8rem 0 0.4rem 0;
+  }
   .grid {
     row-gap: 4.8rem;
   }
@@ -256,7 +264,7 @@
   }
 
   .logos img {
-    height: 1.2rem;
+    height: 2.8rem;
   }
 
   .step-img-box:nth-child(2) {
